@@ -1,0 +1,33 @@
+
+/* ----------fonts---------- */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Merriweather:wght@700&family=Poppins:wght@500&family=Righteous&family=Rubik:ital,wght@1,800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------header section css style--------------- */
+.container{
+    margin: 50px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bars a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+}
+.nav-bars a:hover{
+    background: gray;
+    color: white;
+}
+.feild{
+    padding: 12px;
+    font-size: 20px;
+}
