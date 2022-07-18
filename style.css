@@ -27,7 +27,7 @@ body{
     background: gray;
     color: white;
 }
-.feild{
+.feild-one{
     padding: 12px;
     font-size: 20px;
 }
@@ -58,3 +58,28 @@ body{
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
 }
+
+/* alibaba amazon daraz etc logos css style */
+.container-two{
+    margin: 100px 150px 50px 150px;
+}
+.logos{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    box-shadow: 0px 2px 0px 0px;
+}
+
+/*----- products css style ----------*/
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.feild{
+    color: gold;
+}
+.empty{
+    color: gray;
+}
+
