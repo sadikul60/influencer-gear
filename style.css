@@ -121,7 +121,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 50px;
-    margin-top: 100px;
+    margin: 100px 0px 200px;
 }
 .blogs img{
     width: 85%;
@@ -147,6 +147,7 @@ body{
 }
 .text-six{
     text-align: center;
+    letter-spacing: .8px;
 }
 .social-icons a{
     text-decoration: none;
